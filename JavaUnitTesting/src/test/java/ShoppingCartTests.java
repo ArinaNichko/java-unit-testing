@@ -20,7 +20,6 @@ public class ShoppingCartTests {
         products = new ArrayList<>();
         shoppingCart = new ShoppingCart(products);
         product = new Product(2, "balsam", 12.00, 1);
-
     }
 
 
