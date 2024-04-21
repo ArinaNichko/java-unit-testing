@@ -2,18 +2,15 @@ import com.epam.tamentoring.bo.Product;
 import com.epam.tamentoring.bo.ShoppingCart;
 import com.epam.tamentoring.exceptions.ProductNotFoundException;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.print.Doc;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class UnitTests {
+public class UnitTest {
     private static List<Product> products;
     private ShoppingCart shoppingCart;
     private Product product;
