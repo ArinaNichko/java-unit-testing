@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class UnitTest {
+public class ShoppingCartTests {
     private static List<Product> products;
     private ShoppingCart shoppingCart;
     private Product product;

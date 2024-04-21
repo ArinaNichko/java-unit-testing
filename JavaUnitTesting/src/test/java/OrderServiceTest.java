@@ -14,7 +14,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 @ExtendWith(MockitoExtension.class)
-public class UnitTestWithMockito {
+public class OrderServiceTest {
 
     @InjectMocks
     OrderService orderService;
